@@ -1,13 +1,20 @@
 {
-    "short_name": "Flour",
+    "short_name": "Flour Bakery + Cafe",
     "name": "Flour Bakery and Cafe",
-    "description": "Flour Bakery and Cafe",
+    "description": "Welcome to Flour Bakery and Cafe! Our app rewards loyal guests when they enjoy our amazing food and warm hospitality. Find us on instagram @flourbakeryandcafe. Make life sweeter, eat dessert first!",
     "id": "/flour-pwa/",
     "start_url": "/flour-pwa/",
     "display": "standalone",
     "scope": "/flour-pwa/",
     "background_color": "#FFFFFF",
     "theme_color": "#000000",
+    "features": [
+        "Order ahead for pick-up, pay through the app, skip the line!",
+        "Find the nearest bakery and save your favorite location",
+        "See your order history and re-order",
+        "Subscribe to our meal specials",
+        "Be the first to know about special offers"
+    ],
     "icons": [
         {
             "src": "/flour-pwa/icons/32.png",
