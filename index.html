@@ -26,7 +26,7 @@
             var serviceWorkerReg = false;
             window.addEventListener('load', function() {
                 if ('serviceWorker' in navigator) {
-                    serviceWorkerReg = navigator.serviceWorker.register('/service-worker.js');
+                    serviceWorkerReg = navigator.serviceWorker.register('./service-worker.js');
                 }
             });
         </script>
