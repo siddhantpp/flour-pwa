@@ -25,11 +25,15 @@
     <body>
         <pwa-install id="installComponent" usecustom="true"></pwa-install>
         <script async defer>
-            setTimeout(() => {
+            function showPrompt() {
                 const ref = document.getElementById("installComponent");
                 if (!ref.getInstalledStatus()) {
                     ref.openPrompt();
                 }
+            }
+        
+            setTimeout(() => {
+                const result = window.Notification.requestPermission().then(showPrompt, showPrompt);
             }, 5000)
         </script>
         <div style="width:100%; height:100%; overflow: hidden; position: absolute; top: 0; left: 0; right: 0; bottom: 0;">
