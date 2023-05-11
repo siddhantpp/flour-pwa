@@ -1,6 +1,6 @@
 {
     "short_name": "Flour Bakery",
-    "name": "Flour Bakery and Cafe",
+    "name": "Flour Bakery + Cafe",
     "description": "Welcome to Flour Bakery and Cafe! Our app rewards loyal guests when they enjoy our amazing food and warm hospitality. Find us on instagram @flourbakeryandcafe. Make life sweeter, eat dessert first!",
     "id": "/flour-pwa/",
     "start_url": "/flour-pwa/",
@@ -45,21 +45,21 @@
     ],
     "screenshots" : [
         {
-          "src": "ss1.png",
+          "src": "/flour-pwa/icons/ss1.png",
           "sizes": "1290x2796",
           "type": "image/png",
           "platform": "narrow",
           "label": "Homescreen of Flour"
         },
         {
-            "src": "ss2.png",
+            "src": "/flour-pwa/icons/ss2.png",
             "sizes": "1290x2796",
             "type": "image/png",
             "platform": "narrow",
             "label": "Actions at Flour"
         },
         {
-            "src": "ss3.png",
+            "src": "/flour-pwa/icons/ss3.png",
             "sizes": "1290x2796",
             "type": "image/png",
             "platform": "narrow",
